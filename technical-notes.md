@@ -25,8 +25,8 @@
 	* Open **edit_webmap.ipynb**, update constants, and run all cells. This will add an abstract to the webmap stored in **webmap/insex.html**.
 	* In the **webmap** folder, delete **index.html** and rename **new_index.html** as **index.html**
 * Use **git** to commit changes to repo and push to **github.com**.
-* Visit the **GitHub repo** (**https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04** for example) and enable **GitHub Pages**
-* The interactive webmap should be available online within a few minutes (at **https://aubreymoore.github.io/Guam-CRB-Damage-Map-2023-04/webmap** for example)
+* Visit the **GitHub repo** (<https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04> for example) and enable **GitHub Pages**
+* The interactive webmap should be available online within a few minutes (at <https://aubreymoore.github.io/Guam-CRB-Damage-Map-2023-04/webmap> for example)
 * Now update <https://github.com/aubreymoore/Guam-CRB-web-maps>. This repo acts as an index for all CRB web maps.
 
 	
