@@ -1,3 +1,0 @@
-dbname='../Guam06-CRB-Damage-Map/Guam06.db'
-
-<Exportfolder type="QString">/home/aubrey/Desktop/Guam06-CRB-Damage-Map</Exportfolder>

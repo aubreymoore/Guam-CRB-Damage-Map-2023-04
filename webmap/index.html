@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <style>
 .abstractUncollapsed {max-width: 100%;}
+.abstractUncollapsed {max-width: 100%;}
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -227,7 +228,7 @@
         function style_images_2_0() {
             return {
                 pane: 'pane_images_2',
-                radius: 2.0,
+                radius: 0.2,
                 opacity: 1,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
@@ -235,7 +236,7 @@
                 lineJoin: 'miter',
                 weight: 1,
                 fill: true,
-                fillOpacity: 1,
+                fillOpacity: 0.75,
                 fillColor: 'rgba(0,0,0,1.0)',
                 interactive: true,
             }
@@ -454,7 +455,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = '<b>Coconut Rhinoceros Beetle Damage</b><br><b>Guam Roadside Imagery Survey</b><br><b>November 2022</b><br><br><table><tr><td>Start date:</td><td  style="text-align:right">2022-11-10</td></tr><tr><td>End date:</td><td  style="text-align:right">2022-11-28</td></tr><tr><td>Images examined:</td><td style="text-align:right">26,267</td></tr><tr></tr><tr><td><b>V-cuts detected:</b></td><td style="text-align:right"><b>343</b></td></tr><tr></tr><tr><td><b>Coconut palm images:</b></td><td style="text-align:right"><b>8,872</b></td></tr><tr><td>0 No damage:</td><td style="text-align:right">8,247</td></tr><tr><td>1 Light damage:</td><td style="text-align:right">222</td></tr><tr><td>2 Medium damage:</td><td style="text-align:right">66</td></tr><tr><td>3 High damage:</td><td style="text-align:right">270</td></tr><tr><td>4 Moribund or dead:</td><td style="text-align:right">67</td></tr><tr><td><b>Mean damage index:</td><td style="text-align:right"><b>0.161</b></td></tr><tr><td><b>Trees damaged:</td><td style="text-align:right"><b>7.0%</b></td></tr></table><img src="pie.svg" width="350"><br>Repository:<br><a href="https://github.com/aubreymoore/Guam07map">https://github.com/aubreymoore/Guam07map</a>';
+                    this._div.innerHTML = '<b>Coconut Rhinoceros Beetle Damage</b><br><b>Guam Roadside Imagery Survey</b><br><b>April 2023</b><br><br><table><tr><td>Start date:</td><td  style="text-align:right">2003-08-18</td></tr><tr><td>End date:</td><td  style="text-align:right">2023-04-07</td></tr><tr><td>Images examined:</td><td style="text-align:right">22,279</td></tr><tr></tr><tr><td><b>V-cuts detected:</b></td><td style="text-align:right"><b>1,785</b></td></tr><tr></tr><tr><td><b>Coconut palm images:</b></td><td style="text-align:right"><b>7,913</b></td></tr><tr><td>0 No damage:</td><td style="text-align:right">6,347</td></tr><tr><td>1 Light damage:</td><td style="text-align:right">908</td></tr><tr><td>2 Medium damage:</td><td style="text-align:right">398</td></tr><tr><td>3 High damage:</td><td style="text-align:right">218</td></tr><tr><td>4 Moribund or dead:</td><td style="text-align:right">42</td></tr><tr><td><b>Mean damage index:</td><td style="text-align:right"><b>0.319</b></td></tr><tr><td><b>Trees damaged:</td><td style="text-align:right"><b>19.8%</b></td></tr></table><img src="pie.svg" width="350"><br>Repository:<br><a href="https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04">https://github.com/aubreymoore/Guam-CRB-Damage-Map-2023-04</a>';
             };
             abstract.addTo(map);
         var baseMaps = {};
